@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- This file was auto-generated from WSDL --><!-- by the Apache Axis2 version: 1.6.3  Built on : Jun 27, 2015 (11:17:49 BST) --><serviceGroup>
+    <service name="practica1">
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out" class="org.example.www.practica1.Practica1MessageReceiverInOut"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">org.example.www.practica1.Practica1Skeleton</parameter>
+        <parameter name="useOriginalwsdl">true</parameter>
+        <parameter name="modifyUserWSDLPortAddress">true</parameter>
+        <operation name="consultaCodigoPostal" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.example.org/practica1/">
+            <actionMapping>http://www.example.org/practica1/consultaCodigoPostal</actionMapping>
+            <outputActionMapping>http://www.example.org/practica1/practica1/consultaCodigoPostalResponse</outputActionMapping>
+        </operation>
+        <operation name="validarNIF" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.example.org/practica1/">
+            <actionMapping>http://www.example.org/practica1/validarNIF</actionMapping>
+            <outputActionMapping>http://www.example.org/practica1/practica1/validarNIFResponse</outputActionMapping>
+        </operation>
+        <operation name="validarIBAN" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.example.org/practica1/">
+            <actionMapping>http://www.example.org/practica1/validarIBAN</actionMapping>
+            <outputActionMapping>http://www.example.org/practica1/practica1/validarIBANResponse</outputActionMapping>
+        </operation>
+        <operation name="generarPresupuesto" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.example.org/practica1/">
+            <actionMapping>http://www.example.org/practica1/generarPresupuesto</actionMapping>
+            <outputActionMapping>http://www.example.org/practica1/practica1/generarPresupuestoResponse</outputActionMapping>
+        </operation>
+    </service>
+</serviceGroup>
